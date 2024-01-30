@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/DownloadFile"
+    android:layout_margin="10dp"
+    tools:context=".clientLauncher.fragmentsClients.realizarPedido.remesaPedido.RemesaPedido">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TableLayout
+                android:background="@drawable/borde_tabla_principal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/borde_tabla"
+                            android:src="@drawable/mintrasporte" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:background="@drawable/borde_tabla"
+                            android:src="@drawable/superintendencia" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:background="@drawable/borde_tabla"
+                            android:text="REMESA TERRESTRE DE CARGA" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:background="@drawable/borde_tabla"
+                            android:text="TRAMO S.A.S" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textColor="@color/black"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:text="Nit: 1234567890" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:textColor="@color/black"
+                            android:text="Calle 22N A4" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:textColor="@color/black"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:text="Telefono: 3124567890" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:background="@drawable/borde_tabla"
+                            android:text="POPAYAN - CAUCA" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:text="CONSECUTIVO"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:background="@drawable/borde_tabla"
+                            android:layout_height="wrap_content"
+                            android:text="1294"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:text="NUMERO AUTORIZACION"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/borde_tabla"
+                            android:text="257894211"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Viaje"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="N° carga"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="N°Manifiesto"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Placa"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Tipo operacion"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="tipom empaque"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="466"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="4585744"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="41578"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="General"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="caja de plastico"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla_principal"
+                        android:text="INFORMACION DE LA CARGA"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Naturaleza"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="carga general un itaria"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Descripcion"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="1234 KL"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Codigo"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="1234"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Cantidad"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="1234 KL"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Propietario"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:text="Colombia S.A.S"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/borde_tabla_principal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Remitente / lugar carga"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:text="Destinatario / luigar descarga"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Nombre"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="yonatan"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Nombre"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="yonatan"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Identificacion"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="123232121"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Identificacion"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="12312312"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Sede"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="CRA A4"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Sede"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="CRA A4"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Direcion"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="CRA A4"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Direccion"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="CRA A4"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Cordenadas"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Latitud - lonjitud"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Cordenadas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Latitud - lonjitud"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Municipio"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Santa marta"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Municipio"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Santa marta"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Tomador poliza"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="N° Poliza"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Aseguradora"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Fecha vencimiento"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Empresa aseguradora"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="HMV 2321"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="SEGUROS COMERCIALES BOLIVAR"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="15 / 12 /24"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla_principal"
+                        android:text="TIEMPOS LOGISTICOS"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Datos Carga"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Fecha"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Hora"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="D. Minut"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Carga"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="tiempo pactado"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Tiempo Ejecutado"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Llegada"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="27/1/24"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="04:34"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="14"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Carga"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="6 Horas"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="2 Horas"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Entrada"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="27/1/24"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="04:34"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="14"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="carga"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="6 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="2 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Salida"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="27/1/24"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="04:34"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="14"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Salida"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="6 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="2 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="Cita Descarga"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="27/1/24"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="04:34"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="14"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/borde_tabla"
+                        android:text="carga"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="6 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="2 Horas"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+                </TableRow>
+
+
+                <TableRow
+                    android:background="@drawable/borde_tabla_principal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Observaciones"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:background="@drawable/borde_tabla_principal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_height="50dp"
+                        android:textAlignment="center"
+                        android:gravity="bottom"
+                        android:background="@drawable/borde_tabla"
+                        android:text="Firma y sello empresa"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:textAlignment="center"
+                        android:layout_height="50dp"
+                        android:textStyle="bold"
+                        android:gravity="bottom"
+                        android:text="Firma y sello conductor"
+                        android:background="@drawable/borde_tabla"
+                        android:textColor="@color/black"
+                        android:padding="2dp"/>
+
+                </TableRow>
+            </TableLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

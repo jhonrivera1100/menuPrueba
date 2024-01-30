@@ -1,0 +1,5 @@
+<resources>
+    <string name="nombre">nombre</string>
+    <string name="contrasena">contraseña</string>
+    <string name="enviar">Ingresar</string>
+</resources>

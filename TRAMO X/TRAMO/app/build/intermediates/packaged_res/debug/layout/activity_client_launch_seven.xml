@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteBackground"
+    tools:context=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSeven">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarGoActivityClientLaunchSeven"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ToolbarTheme"
+        app:title="@string/solicitud_de_servicio"
+        app:titleTextColor="@color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarGoActivityClientLaunchSeven">
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:text="@string/informacion_completa_de_su_carga"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/logofin"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/precio_sugerido"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/tvPrecioSugerido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500.000"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"/>
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/carts" />
+
+                <LinearLayout
+                    android:id="@+id/lyNegociarPrecio"
+                    android:layout_width="match_parent"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/buttonDecrease"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:drawableLeft="@drawable/ic_disminuir"
+                        android:padding="12dp"/>
+
+                    <EditText
+                        android:id="@+id/etPrecio"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:text="50000"
+                        android:background="@drawable/border_edit_text"
+                        android:textAlignment="center"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/buttonIncrease"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:drawableLeft="@drawable/ic_add"
+                        android:padding="12dp"/>
+                </LinearLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    app:boxBackgroundColor="#00FF0000"
+                    app:boxStrokeColor="#00FF0000"
+                    app:boxStrokeWidth="0dp"
+                    app:endIconTint="#131313"
+                    app:hintTextColor="#101010"
+                    app:startIconTint="#323232">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/border_edit_text"
+                        app:boxBackgroundColor="#00FF0000"
+                        app:boxStrokeColor="#00FF0000"
+                        app:boxStrokeWidth="0dp"
+                        app:endIconTint="#131313"
+                        app:hintTextColor="#101010"
+                        app:startIconTint="#323232">
+
+                        <Spinner
+                            android:id="@+id/spinnerMetodoPago"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp" />
+
+                    </LinearLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/myLinearLayouts"
+            android:gravity="bottom|center"
+            android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BtnNegoceaPrecioClient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/negociar_precio"
+            android:textColor="@color/white"
+            android:layout_marginEnd="10dp"
+            app:backgroundTint="#161640" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/BtnSolicitudClientSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CONTINUAR"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            app:backgroundTint="@color/secondaryWeb" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

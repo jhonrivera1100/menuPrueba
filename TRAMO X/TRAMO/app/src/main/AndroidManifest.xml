@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name=".fireBase.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TRAMO"
+        android:usesCleartextTraffic="true"
+        android:screenOrientation="portrait"
+        tools:targetApi="31">
+
+
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.remesaPedido.RemesaPedido"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.routesMaps.routeClient"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.routesMaps.RoutePedidoDriver"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".notifications.NotificacionesPedidos"
+            android:exported="false"
+            tools:ignore="LockedOrientationActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".clientLauncher.HomeLauncher"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientBookOrder"
+            android:exported="false"
+            tools:ignore="LockedOrientationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.clientRegister.ActivityRegisterClientConfirmation"
+            android:exported="false"
+            tools:ignore="LockedOrientationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchNine"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSeven"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSeven"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSix"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSix"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFive"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFive"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFour"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFour"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchThree"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchThree"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.HomeLauncher"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.fragmentsClients.configuraciones.aboutClient.ActivityAboutCliente"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".clientLauncher.fragmentsClients.configuraciones.aboutClient.ActivityAboutCliente"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".clientLauncher.HomeLauncher"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:label="title_activity_client_launch_one"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.clientRegister.registerCompany.ActivityRegisterClientCompanyTwo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.clientRegister.registerPerson.ActivityRegisterClientOne"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.clientRegister.registerCompany.ActivityRegisterClientCompanyOne"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityLogInClientCompany"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.clientRegister.registerPerson.ActivityRegisterClientTwo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.clientRegister.registerPerson.ActivityRegisterClientOne"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.clientRegister.registerPerson.ActivityRegisterClientOne"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityLogInClient"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".logIn.ActivityLogInClientCompany"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityPersonOrCompany"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterTen"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityLogInDriver"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterNine"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterEight"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterEight"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterSeven"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterSeven"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterSix"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterSix"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterFive"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterFive"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterFour"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterFour"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterThree"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterThree"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterTwo"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterTwo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".register.driverRegister.ActivityDriverRegisterOne"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".register.driverRegister.ActivityDriverRegisterOne"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityLogInDriver"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".logIn.ActivityLogInClient"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".logIn.ActivityPersonOrCompany"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".logIn.ActivityLogInDriver"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".logIn.ActivityPersonOrCompany"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.TRAMO.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".SplashBackround"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".fireBase.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logofin" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/white" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

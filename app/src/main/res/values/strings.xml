@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">menuPrueba</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Menu de Pruebas</string>
+    <string name="nav_header_subtitle">Educatio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Suma</string>
+    <string name="menu_gallery">Resta</string>
+    <string name="menu_slideshow">Multiplicacion</string>
+    <string name="menu_division">Division</string>
+</resources>

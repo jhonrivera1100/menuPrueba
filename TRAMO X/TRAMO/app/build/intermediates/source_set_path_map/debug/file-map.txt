@@ -1,0 +1,71 @@
+com.innovation.tramo.app-res-0 C:\TRAMO X\TRAMO\app\build\generated\crashlytics\res\debug
+com.innovation.tramo.app-google-services-1 C:\TRAMO X\TRAMO\app\build\generated\res\google-services\debug
+com.innovation.tramo.app-pngs-2 C:\TRAMO X\TRAMO\app\build\generated\res\pngs\debug
+com.innovation.tramo.app-resValues-3 C:\TRAMO X\TRAMO\app\build\generated\res\resValues\debug
+com.innovation.tramo.app-rs-4 C:\TRAMO X\TRAMO\app\build\generated\res\rs\debug
+com.innovation.tramo.app-packageDebugResources-5 C:\TRAMO X\TRAMO\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.innovation.tramo.app-packageDebugResources-6 C:\TRAMO X\TRAMO\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.innovation.tramo.app-merged_res-7 C:\TRAMO X\TRAMO\app\build\intermediates\merged_res\debug
+com.innovation.tramo.app-debug-8 C:\TRAMO X\TRAMO\app\src\debug\res
+com.innovation.tramo.app-main-9 C:\TRAMO X\TRAMO\app\src\main\res
+com.innovation.tramo.app-startup-runtime-1.1.1-10 C:\Users\yonat\.gradle\caches\transforms-3\02ff5b0e5af3a4609ecfd0d38b53424d\transformed\startup-runtime-1.1.1\res
+com.innovation.tramo.app-browser-1.0.0-11 C:\Users\yonat\.gradle\caches\transforms-3\08e64d57fe1045329d80fb41a9d0d2a1\transformed\browser-1.0.0\res
+com.innovation.tramo.app-annotation-experimental-1.3.0-12 C:\Users\yonat\.gradle\caches\transforms-3\132ed3b12f801f5d7a05cd2316504576\transformed\annotation-experimental-1.3.0\res
+com.innovation.tramo.app-window-1.0.0-13 C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\res
+com.innovation.tramo.app-slidingpanelayout-1.2.0-14 C:\Users\yonat\.gradle\caches\transforms-3\2213f104df5e61aeb60d7e2c8e713abe\transformed\slidingpanelayout-1.2.0\res
+com.innovation.tramo.app-cardview-1.0.0-15 C:\Users\yonat\.gradle\caches\transforms-3\24e61ee5d8c898fcd4b674e042579d79\transformed\cardview-1.0.0\res
+com.innovation.tramo.app-core-1.10.1-16 C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\res
+com.innovation.tramo.app-navigation-runtime-2.5.3-17 C:\Users\yonat\.gradle\caches\transforms-3\317322d5048338d2c8a85492c35c51e8\transformed\navigation-runtime-2.5.3\res
+com.innovation.tramo.app-android-maps-utils-2.2.0-18 C:\Users\yonat\.gradle\caches\transforms-3\338d1608be0e7d2db05a5b670034bcce\transformed\android-maps-utils-2.2.0\res
+com.innovation.tramo.app-play-services-maps-18.1.0-19 C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\res
+com.innovation.tramo.app-media-1.0.0-20 C:\Users\yonat\.gradle\caches\transforms-3\42b8dd1295088524da238bb02a44c199\transformed\media-1.0.0\res
+com.innovation.tramo.app-play-services-basement-18.1.0-21 C:\Users\yonat\.gradle\caches\transforms-3\44c07473550f9c1de1675e2cc4b26e40\transformed\play-services-basement-18.1.0\res
+com.innovation.tramo.app-emoji2-views-helper-1.2.0-22 C:\Users\yonat\.gradle\caches\transforms-3\456a4471b013965aeaa27c6eea10c1ff\transformed\emoji2-views-helper-1.2.0\res
+com.innovation.tramo.app-lifecycle-viewmodel-2.6.1-23 C:\Users\yonat\.gradle\caches\transforms-3\463fcb6e59a7ecbb688454034d091171\transformed\lifecycle-viewmodel-2.6.1\res
+com.innovation.tramo.app-navigation-common-ktx-2.5.3-24 C:\Users\yonat\.gradle\caches\transforms-3\49589981668e98df60e4b294e9a15d44\transformed\navigation-common-ktx-2.5.3\res
+com.innovation.tramo.app-lifecycle-service-2.6.1-25 C:\Users\yonat\.gradle\caches\transforms-3\498887682546ecb2478d18151a90f67d\transformed\lifecycle-service-2.6.1\res
+com.innovation.tramo.app-lifecycle-runtime-ktx-2.6.1-26 C:\Users\yonat\.gradle\caches\transforms-3\4b5c973c61fe5680e28bf8ecc2d96216\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.innovation.tramo.app-material-1.9.0-27 C:\Users\yonat\.gradle\caches\transforms-3\4dee2a54d2c3d476acad252e7b56b6ea\transformed\material-1.9.0\res
+com.innovation.tramo.app-navigation-common-2.5.3-28 C:\Users\yonat\.gradle\caches\transforms-3\502f628c690645526bc806926a2b1978\transformed\navigation-common-2.5.3\res
+com.innovation.tramo.app-lifecycle-runtime-2.6.1-29 C:\Users\yonat\.gradle\caches\transforms-3\56530d52df6c8bbda386173516d1fc21\transformed\lifecycle-runtime-2.6.1\res
+com.innovation.tramo.app-firebase-inappmessaging-display-20.3.2-30 C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\res
+com.innovation.tramo.app-glide-4.15.1-31 C:\Users\yonat\.gradle\caches\transforms-3\5e637d309c3c308fa863da3ee3633341\transformed\glide-4.15.1\res
+com.innovation.tramo.app-lifecycle-viewmodel-ktx-2.6.1-32 C:\Users\yonat\.gradle\caches\transforms-3\6367f9c7beb0c200622a486dc20e07fb\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.innovation.tramo.app-coordinatorlayout-1.1.0-33 C:\Users\yonat\.gradle\caches\transforms-3\6425a57754168a3df0473864225f61f1\transformed\coordinatorlayout-1.1.0\res
+com.innovation.tramo.app-navigation-fragment-2.5.3-34 C:\Users\yonat\.gradle\caches\transforms-3\6446af12cdc8b4a990a91268c91c6770\transformed\navigation-fragment-2.5.3\res
+com.innovation.tramo.app-materialish-progress-1.7-35 C:\Users\yonat\.gradle\caches\transforms-3\67cd4655e85d17113a3b383ada6a6331\transformed\materialish-progress-1.7\res
+com.innovation.tramo.app-activity-ktx-1.7.2-36 C:\Users\yonat\.gradle\caches\transforms-3\6a06254751feb0d99f0372e6118bf0b2\transformed\activity-ktx-1.7.2\res
+com.innovation.tramo.app-core-runtime-2.2.0-37 C:\Users\yonat\.gradle\caches\transforms-3\6b9fe42f0e5f7c969e93ce68956b5a7f\transformed\core-runtime-2.2.0\res
+com.innovation.tramo.app-lifecycle-livedata-core-ktx-2.6.1-38 C:\Users\yonat\.gradle\caches\transforms-3\6d23d2be3f61c39e4ad7a699462284ff\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.innovation.tramo.app-savedstate-1.2.1-39 C:\Users\yonat\.gradle\caches\transforms-3\7309cfda8adea2ff1590dbba1d9ed5fd\transformed\savedstate-1.2.1\res
+com.innovation.tramo.app-activity-1.7.2-40 C:\Users\yonat\.gradle\caches\transforms-3\7e8d644246092021246c6f18bdb53d38\transformed\activity-1.7.2\res
+com.innovation.tramo.app-places-3.1.0-41 C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\res
+com.innovation.tramo.app-appcompat-resources-1.6.1-42 C:\Users\yonat\.gradle\caches\transforms-3\866ee00a3609214e077673590ff0d25f\transformed\appcompat-resources-1.6.1\res
+com.innovation.tramo.app-drawerlayout-1.1.1-43 C:\Users\yonat\.gradle\caches\transforms-3\8c0d0fd7a579b9370045ef8421e6daa2\transformed\drawerlayout-1.1.1\res
+com.innovation.tramo.app-constraintlayout-2.1.4-44 C:\Users\yonat\.gradle\caches\transforms-3\8d02806bb2c6d00d1fb8aafc374fac4d\transformed\constraintlayout-2.1.4\res
+com.innovation.tramo.app-navigation-ui-2.5.3-45 C:\Users\yonat\.gradle\caches\transforms-3\9141645e22b92f01efb68c7d61fa79b2\transformed\navigation-ui-2.5.3\res
+com.innovation.tramo.app-lifecycle-livedata-2.6.1-46 C:\Users\yonat\.gradle\caches\transforms-3\91557ec4619e4a46b1a2109da7379661\transformed\lifecycle-livedata-2.6.1\res
+com.innovation.tramo.app-lifecycle-livedata-core-2.6.1-47 C:\Users\yonat\.gradle\caches\transforms-3\92483b1873cdc539bfb69918b6f663aa\transformed\lifecycle-livedata-core-2.6.1\res
+com.innovation.tramo.app-viewpager2-1.0.0-48 C:\Users\yonat\.gradle\caches\transforms-3\92c3c2dceb392c89464ce925936e1a2b\transformed\viewpager2-1.0.0\res
+com.innovation.tramo.app-firebase-messaging-23.1.2-49 C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\res
+com.innovation.tramo.app-core-1.5.0-50 C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\res
+com.innovation.tramo.app-navigation-runtime-ktx-2.5.3-51 C:\Users\yonat\.gradle\caches\transforms-3\a53f9dc03ae0ba9e25b2a5b477f45983\transformed\navigation-runtime-ktx-2.5.3\res
+com.innovation.tramo.app-appcompat-1.6.1-52 C:\Users\yonat\.gradle\caches\transforms-3\b4ed931120ab33afd72eed5bd42ab549\transformed\appcompat-1.6.1\res
+com.innovation.tramo.app-circularimageview-4.3.1-53 C:\Users\yonat\.gradle\caches\transforms-3\b82723a107b28f46e23c80cda9673b85\transformed\circularimageview-4.3.1\res
+com.innovation.tramo.app-lifecycle-viewmodel-savedstate-2.6.1-54 C:\Users\yonat\.gradle\caches\transforms-3\b8d5354eac4af0111fb571233a810e1d\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.innovation.tramo.app-lifecycle-process-2.6.1-55 C:\Users\yonat\.gradle\caches\transforms-3\b99d0f373e26a9034a0ce1acc80f581f\transformed\lifecycle-process-2.6.1\res
+com.innovation.tramo.app-fragment-1.5.4-56 C:\Users\yonat\.gradle\caches\transforms-3\bb94d37095a81999e15f4ffb9e4bcaf5\transformed\fragment-1.5.4\res
+com.innovation.tramo.app-core-ktx-1.10.1-57 C:\Users\yonat\.gradle\caches\transforms-3\c06aba1c80bed5a164acf86b49725c38\transformed\core-ktx-1.10.1\res
+com.innovation.tramo.app-recyclerview-1.1.0-58 C:\Users\yonat\.gradle\caches\transforms-3\c6768ad849fe028aee39f58a8e5ab4c8\transformed\recyclerview-1.1.0\res
+com.innovation.tramo.app-transition-1.4.1-59 C:\Users\yonat\.gradle\caches\transforms-3\c78a85be06cb54a46aaafb1878b559e7\transformed\transition-1.4.1\res
+com.innovation.tramo.app-library-1.5.6-60 C:\Users\yonat\.gradle\caches\transforms-3\d02314f5bd24347352dde9cd200bde2b\transformed\library-1.5.6\res
+com.innovation.tramo.app-play-services-base-18.1.0-61 C:\Users\yonat\.gradle\caches\transforms-3\d071691e2578d1192be3a0f9694533c8\transformed\play-services-base-18.1.0\res
+com.innovation.tramo.app-navigation-fragment-ktx-2.5.3-62 C:\Users\yonat\.gradle\caches\transforms-3\db1c9f37199cfd79fe29758aedccbadb\transformed\navigation-fragment-ktx-2.5.3\res
+com.innovation.tramo.app-emoji2-1.2.0-63 C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\res
+com.innovation.tramo.app-profileinstaller-1.3.0-64 C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\res
+com.innovation.tramo.app-lottie-4.1.0-65 C:\Users\yonat\.gradle\caches\transforms-3\e655eaab29587c431f00427c51cdf06b\transformed\lottie-4.1.0\res
+com.innovation.tramo.app-fragment-ktx-1.5.4-66 C:\Users\yonat\.gradle\caches\transforms-3\ef8d7db3b6356407900f3e8eea3aed7c\transformed\fragment-ktx-1.5.4\res
+com.innovation.tramo.app-circleimageview-3.1.0-67 C:\Users\yonat\.gradle\caches\transforms-3\f2f58e69a413122177efaa63506ff7e9\transformed\circleimageview-3.1.0\res
+com.innovation.tramo.app-savedstate-ktx-1.2.1-68 C:\Users\yonat\.gradle\caches\transforms-3\faa6d4716332260757c678cf5fd8585e\transformed\savedstate-ktx-1.2.1\res
+com.innovation.tramo.app-firebase-common-20.3.2-69 C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\res
+com.innovation.tramo.app-navigation-ui-ktx-2.5.3-70 C:\Users\yonat\.gradle\caches\transforms-3\ff7303e3a78e2597699dd519b871216a\transformed\navigation-ui-ktx-2.5.3\res

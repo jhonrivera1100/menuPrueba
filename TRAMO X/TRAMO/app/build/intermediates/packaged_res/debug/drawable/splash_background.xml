@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:opacity="opaque">
+    <item android:drawable="@color/white"/>
+    <item
+        android:width="320dp"
+        android:height="150dp"
+        android:gravity="center"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="50dp"
+        tools:ignore="UnusedAttribute">
+        <bitmap android:src="@drawable/logofin"/>
+
+    </item>
+
+</layer-list>

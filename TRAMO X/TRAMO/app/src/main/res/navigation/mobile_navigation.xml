@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/menu_item_home">
+
+    <fragment
+        android:id="@+id/menu_item_home"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/menu_item_historial"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.historial.historyFragment"
+        android:label="@string/Historial"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/menu_item_configuracion"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.configuraciones.ConfiguracionesFragment"
+        android:label="@string/configuraciones"
+        tools:layout="@layout/fragment_configuraciones" />
+    <fragment
+        android:id="@+id/menu_item_pqrs"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.pqrs.PqrsFragment"
+        android:label="@string/pqrs"
+        tools:layout="@layout/fragment_pqrs" />
+    <fragment
+        android:id="@+id/profileUser"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.profile.ProfileUser"
+        android:label="@string/Perfil"
+        tools:layout="@layout/fragment_profile_user" />
+
+    <fragment
+        android:id="@+id/menu_item_cerrar_sesion"
+        android:name="com.innovation.tramo.clientLauncher.fragmentsClients.cerrarSesion.CerrarSesionFragment"
+        android:label="@string/cerrar_sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" />
+
+</navigation>

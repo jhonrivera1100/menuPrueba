@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">350dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+
+    <dimen name="original_text_size">16sp</dimen>
+    <dimen name="original_timer_size">32sp</dimen>
+
+
+</resources>
+

@@ -1,0 +1,702 @@
+[
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_five.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_carts.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\carts.png"
+    },
+    {
+        "merged": "com.innovation.tramo.app-merged_res-7:/layout_activity_driver_register_one.xml.flat",
+        "source": "com.innovation.tramo.app-main-9:/layout/activity_driver_register_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_conductor_disponible.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\conductor_disponible.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_launch_six.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_launch_six.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_phone.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\phone.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_clientlaunch_three.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_clientlaunch_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_route_client.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_route_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_editarperfil.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_editarperfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_history.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\history.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_launch_nine.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_launch_nine.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_profile_user.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_profile_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_pqrs.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_pqrs.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_nav_header_activity_client_launch_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\nav_header_activity_client_launch_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_historialviajes.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_historialviajes.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_camera_add.jpg.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\camera_add.jpg"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_borde_tabla.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\borde_tabla.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_two.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_seven.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_seven.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_footer_end_pedido.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\footer_end_pedido.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_configuracion.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_configuracion.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_terms_and_conditions.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_terms_and_conditions.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_remesa_pedido.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_remesa_pedido.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_envia.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_envia.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_baseline_add_location_alt_24.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\baseline_add_location_alt_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_pettition.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_pettition.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_notificaciones_pedidos.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_notificaciones_pedidos.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_logofin.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\logofin.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_app_bar_activity_client_launch_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\app_bar_activity_client_launch_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_logout.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_card_outline_background.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\card_outline_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_notificaciones.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_notificaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_superintendencia.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\superintendencia.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_pqrs.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_pqrs.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_book_order.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_book_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_six.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_six.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_terminos.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_terminos.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_content_activity_client_launch_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\content_activity_client_launch_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_borde_placa.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\borde_placa.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_footer.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\footer.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_support.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\support.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_log_in_client.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_log_in_client.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_cerrar_sesion.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_cerrar_sesion.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_launch_five.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_launch_five.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_home_launcher.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_home_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_user.webp.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\user.webp"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_configuraciones.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_configuraciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_round_background.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\round_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_account.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\account.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-v23_splash_background.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-v23\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_eight.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_eight.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_perfil.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\raw_emptyhistory.json.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\raw\\emptyhistory.json"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_view.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\view.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-pngs-2:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_company.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\company.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_white_line.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\white_line.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_register_client_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_register_client_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_itemhistorial.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\itemhistorial.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_launch_seven.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_launch_seven.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\menu_activity_client_menu_toolbar.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\menu\\activity_client_menu_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_four.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_tramo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\tramo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_historial.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_historial.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_navbar.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\navbar.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_route_pedido_driver.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_route_pedido_driver.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_cerrar_sesion.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_cerrar_sesion.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_fondo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxhdpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxhdpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xhdpi_carga_image.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xhdpi\\carga_image.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_about_solicitar_ahora.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_about_solicitar_ahora.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_hide.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_three.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_map.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\map.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_register_client_two.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_register_client_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_search_bg.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\search_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_disminuir.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_disminuir.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_salir.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_salir.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_border_edit_text.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\border_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_mintrasporte.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\mintrasporte.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_send.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\send.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_fragment_configuraciones.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\fragment_configuraciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_tramo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\tramo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_about_agendar_despues.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_about_agendar_despues.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_ten.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_ten.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_splash_background.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\splash_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_log_in_client_company.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_log_in_client_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_driver_register_nine.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_driver_register_nine.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_register_client_confirmation.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_register_client_confirmation.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_person_or_company.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_person_or_company.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_log_in_driver.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_log_in_driver.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_about_cliente.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_about_cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_negativo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\negativo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-xxxhdpi_tema.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-xxxhdpi\\tema.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_borde_tabla_principal.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\borde_tabla_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_masimg.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\masimg.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-hdpi_tramo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-hdpi\\tramo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_register_client_company_two.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_register_client_company_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-ldpi_tramo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-ldpi\\tramo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_register_client_company_one.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_register_client_company_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable-mdpi_tramo.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable-mdpi\\tramo.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_info_flotante.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\info_flotante.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_toggle_pass.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\toggle_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_ic_pending.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\ic_pending.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_border_rouded.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\border_rouded.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_logo_horizontal.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\logo_horizontal.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_activity_client_launch_four.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\activity_client_launch_four.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\layout_menu_item_home.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\layout\\menu_item_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-merged_res-7:\\drawable_borde_placa_externo.xml.flat",
+        "source": "C:\\Users\\yonat\\.gradle\\daemon\\7.5\\com.innovation.tramo.app-main-9:\\drawable\\borde_placa_externo.xml"
+    }
+]

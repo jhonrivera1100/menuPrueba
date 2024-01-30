@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MenuItemStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+    <style name="Theme.TRAMO" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">#161627</item>
+        <item name="colorPrimaryVariant">#A3161627</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#161627</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        
+        <item name="android:statusBarColor">#000000</item>
+
+        
+
+    </style>
+    <style name="Theme.TRAMO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.TRAMO.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TRAMO.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="titleTextColor">#000000</item>
+    </style>
+    <style name="ToolbarThemeWhite" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="titleTextColor">#FFFFFF</item>
+    </style>
+</resources>

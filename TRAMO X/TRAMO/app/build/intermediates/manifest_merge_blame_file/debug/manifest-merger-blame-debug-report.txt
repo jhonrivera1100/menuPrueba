@@ -1,0 +1,957 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.innovation.tramo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:6:5-77
+12-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:6:22-74
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:8:5-81
+13-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:9:5-82
+14-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:9:22-79
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:10:5-80
+15-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:10:22-77
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:12:5-67
+16-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:13:5-79
+17-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:14:5-79
+18-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:14:22-76
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:15:5-81
+19-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:15:22-78
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:16:5-85
+20-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:16:22-82
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:17:5-69
+21-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:17:22-66
+22
+23    <uses-feature android:name="android.hardware.location.gps" />
+23-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:19:5-66
+23-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:19:19-63
+24    <uses-feature
+24-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:20:5-22:36
+25        android:name="android.hardware.camera"
+25-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:21:9-47
+26        android:required="false" />
+26-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:22:9-33
+27    <uses-feature
+27-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:23:5-25:36
+28        android:name="android.hardware.telephony"
+28-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:24:9-50
+29        android:required="false" />
+29-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:25:9-33
+30
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:27:5-82
+31-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:27:22-79
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:28:5-66
+32-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:28:22-63
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:29:5-78
+33-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:29:22-75
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:30:5-77
+34-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:30:22-74
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:31:5-68
+35-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:31:22-65
+36
+37    <queries>
+37-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:12:5-18:15
+38        <intent>
+38-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:13:9-17:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:14:13-65
+39-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:14:21-62
+40
+41            <data android:scheme="https" />
+41-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:16:13-44
+41-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:16:19-41
+42        </intent>
+43        <!-- Needs to be explicitly declared on Android R+ -->
+44        <package android:name="com.google.android.apps.maps" />
+44-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+44-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+45    </queries>
+46
+47    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+47-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:11:5-76
+47-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:11:22-73
+48
+49    <uses-feature
+49-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+50        android:glEsVersion="0x00020000"
+50-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+51        android:required="true" />
+51-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+52
+53    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+53-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\cfcb6818bce3c12d4050f8af6807648b\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:5-79
+53-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\cfcb6818bce3c12d4050f8af6807648b\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:25:22-76
+54    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+54-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+54-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+55    <uses-permission android:name="android.permission.REORDER_TASKS" />
+55-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:24:5-72
+55-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:24:22-69
+56
+57    <permission
+57-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+58        android:name="com.innovation.tramo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+58-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+59        android:protectionLevel="signature" />
+59-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+60
+61    <uses-permission android:name="com.innovation.tramo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+61-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+62
+63    <application
+63-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:33:5-297:19
+64        android:name="com.innovation.tramo.fireBase.MyApplication"
+64-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:34:9-47
+65        android:allowBackup="true"
+65-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:35:9-35
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.10.1] C:\Users\yonat\.gradle\caches\transforms-3\2d9538b59d302148c5432c9ad5b16592\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+67        android:dataExtractionRules="@xml/data_extraction_rules"
+67-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:36:9-65
+68        android:debuggable="true"
+69        android:fullBackupContent="@xml/backup_rules"
+69-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:37:9-54
+70        android:icon="@mipmap/ic_launcher"
+70-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:38:9-43
+71        android:label="@string/app_name"
+71-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:39:9-41
+72        android:roundIcon="@mipmap/ic_launcher_round"
+72-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:40:9-54
+73        android:screenOrientation="portrait"
+73-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:44:9-45
+74        android:supportsRtl="true"
+74-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:41:9-35
+75        android:testOnly="true"
+76        android:theme="@style/Theme.TRAMO"
+76-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:42:9-43
+77        android:usesCleartextTraffic="true" >
+77-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:43:9-44
+78        <activity
+78-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:48:9-52:56
+79            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.remesaPedido.RemesaPedido"
+79-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:49:13-101
+80            android:exported="false"
+80-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:50:13-37
+81            android:screenOrientation="portrait" />
+81-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:51:13-49
+82        <activity
+82-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:53:9-57:40
+83            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.routesMaps.routeClient"
+83-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:54:13-83
+84            android:exported="false"
+84-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:57:13-37
+85            android:screenOrientation="portrait" />
+85-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:55:13-49
+86        <activity
+86-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:58:9-62:40
+87            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.routesMaps.RoutePedidoDriver"
+87-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:59:13-89
+88            android:exported="false"
+88-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:62:13-37
+89            android:screenOrientation="portrait" />
+89-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:60:13-49
+90        <activity
+90-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:63:9-69:62
+91            android:name="com.innovation.tramo.notifications.NotificacionesPedidos"
+91-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:64:13-64
+92            android:exported="false"
+92-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:65:13-37
+93            android:parentActivityName="com.innovation.tramo.clientLauncher.HomeLauncher"
+93-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:68:13-70
+94            android:screenOrientation="portrait"
+94-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:67:13-49
+95            android:theme="@style/Theme.TRAMO.NoActionBar" />
+95-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:69:13-59
+96        <activity
+96-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:70:9-75:62
+97            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientBookOrder"
+97-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:71:13-99
+98            android:exported="false"
+98-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:72:13-37
+99            android:screenOrientation="portrait"
+99-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:74:13-49
+100            android:theme="@style/Theme.TRAMO.NoActionBar" />
+100-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:75:13-59
+101        <activity
+101-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:76:9-81:62
+102            android:name="com.innovation.tramo.register.clientRegister.ActivityRegisterClientConfirmation"
+102-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:77:13-87
+103            android:exported="false"
+103-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:78:13-37
+104            android:screenOrientation="portrait"
+104-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:80:13-49
+105            android:theme="@style/Theme.TRAMO.NoActionBar" />
+105-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:81:13-59
+106        <activity
+106-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:82:9-88:62
+107            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchNine"
+107-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:83:13-100
+108            android:exported="false"
+108-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:84:13-37
+109            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSeven"
+109-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:87:13-115
+110            android:screenOrientation="portrait"
+110-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:85:13-49
+111            android:theme="@style/Theme.TRAMO.NoActionBar" />
+111-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:88:13-59
+112        <activity
+112-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:89:9-95:62
+113            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSeven"
+113-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:90:13-101
+114            android:exported="false"
+114-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:91:13-37
+115            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSix"
+115-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:94:13-113
+116            android:screenOrientation="portrait"
+116-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:92:13-49
+117            android:theme="@style/Theme.TRAMO.NoActionBar" />
+117-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:95:13-59
+118        <activity
+118-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:96:9-102:62
+119            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchSix"
+119-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:97:13-99
+120            android:exported="false"
+120-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:98:13-37
+121            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFive"
+121-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:101:13-114
+122            android:screenOrientation="portrait"
+122-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:99:13-49
+123            android:theme="@style/Theme.TRAMO.NoActionBar" />
+123-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:102:13-59
+124        <activity
+124-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:103:9-109:62
+125            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFive"
+125-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:104:13-100
+126            android:exported="false"
+126-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:105:13-37
+127            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFour"
+127-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:108:13-114
+128            android:screenOrientation="portrait"
+128-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:106:13-49
+129            android:theme="@style/Theme.TRAMO.NoActionBar" />
+129-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:109:13-59
+130        <activity
+130-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:110:9-116:62
+131            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchFour"
+131-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:111:13-100
+132            android:exported="false"
+132-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:112:13-37
+133            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchThree"
+133-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:115:13-115
+134            android:screenOrientation="portrait"
+134-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:113:13-49
+135            android:theme="@style/Theme.TRAMO.NoActionBar" />
+135-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:116:13-59
+136        <activity
+136-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:117:9-123:62
+137            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.realizarPedido.ActivityClientLaunchThree"
+137-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:118:13-101
+138            android:exported="false"
+138-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:119:13-37
+139            android:parentActivityName="com.innovation.tramo.clientLauncher.HomeLauncher"
+139-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:122:13-70
+140            android:screenOrientation="portrait"
+140-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:120:13-49
+141            android:theme="@style/Theme.TRAMO.NoActionBar" />
+141-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:123:13-59
+142        <activity
+142-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:124:9-130:62
+143            android:name="com.innovation.tramo.clientLauncher.fragmentsClients.configuraciones.aboutClient.ActivityAboutCliente"
+143-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:125:13-109
+144            android:exported="false"
+144-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:126:13-37
+145            android:parentActivityName="com.innovation.tramo.clientLauncher.fragmentsClients.configuraciones.aboutClient.ActivityAboutCliente"
+145-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:129:13-123
+146            android:screenOrientation="portrait"
+146-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:127:13-49
+147            android:theme="@style/Theme.TRAMO.NoActionBar" />
+147-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:130:13-59
+148        <activity
+148-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:131:9-137:62
+149            android:name="com.innovation.tramo.clientLauncher.HomeLauncher"
+149-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:132:13-56
+150            android:exported="false"
+150-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:133:13-37
+151            android:label="title_activity_client_launch_one"
+151-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:136:13-61
+152            android:screenOrientation="portrait"
+152-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:134:13-49
+153            android:theme="@style/Theme.TRAMO.NoActionBar" />
+153-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:137:13-59
+154        <activity
+154-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:138:9-144:62
+155            android:name="com.innovation.tramo.register.clientRegister.registerCompany.ActivityRegisterClientCompanyTwo"
+155-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:139:13-101
+156            android:exported="false"
+156-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:140:13-37
+157            android:parentActivityName="com.innovation.tramo.register.clientRegister.registerPerson.ActivityRegisterClientOne"
+157-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:143:13-107
+158            android:screenOrientation="portrait"
+158-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:141:13-49
+159            android:theme="@style/Theme.TRAMO.NoActionBar" />
+159-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:144:13-59
+160        <activity
+160-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:145:9-151:62
+161            android:name="com.innovation.tramo.register.clientRegister.registerCompany.ActivityRegisterClientCompanyOne"
+161-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:146:13-101
+162            android:exported="false"
+162-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:147:13-37
+163            android:parentActivityName="com.innovation.tramo.logIn.ActivityLogInClientCompany"
+163-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:150:13-75
+164            android:screenOrientation="portrait"
+164-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:148:13-49
+165            android:theme="@style/Theme.TRAMO.NoActionBar" />
+165-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:151:13-59
+166        <activity
+166-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:152:9-158:62
+167            android:name="com.innovation.tramo.register.clientRegister.registerPerson.ActivityRegisterClientTwo"
+167-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:153:13-93
+168            android:exported="false"
+168-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:154:13-37
+169            android:parentActivityName="com.innovation.tramo.register.clientRegister.registerPerson.ActivityRegisterClientOne"
+169-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:157:13-107
+170            android:screenOrientation="portrait"
+170-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:155:13-49
+171            android:theme="@style/Theme.TRAMO.NoActionBar" />
+171-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:158:13-59
+172        <activity
+172-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:159:9-165:62
+173            android:name="com.innovation.tramo.register.clientRegister.registerPerson.ActivityRegisterClientOne"
+173-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:160:13-93
+174            android:exported="false"
+174-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:161:13-37
+175            android:parentActivityName="com.innovation.tramo.logIn.ActivityLogInClient"
+175-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:164:13-68
+176            android:screenOrientation="portrait"
+176-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:162:13-49
+177            android:theme="@style/Theme.TRAMO.NoActionBar" />
+177-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:165:13-59
+178        <activity
+178-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:166:9-172:62
+179            android:name="com.innovation.tramo.logIn.ActivityLogInClientCompany"
+179-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:167:13-61
+180            android:exported="false"
+180-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:168:13-37
+181            android:parentActivityName="com.innovation.tramo.logIn.ActivityPersonOrCompany"
+181-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:171:13-72
+182            android:screenOrientation="portrait"
+182-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:169:13-49
+183            android:theme="@style/Theme.TRAMO.NoActionBar" />
+183-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:172:13-59
+184        <activity
+184-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:173:9-179:62
+185            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterTen"
+185-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:174:13-78
+186            android:exported="false"
+186-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:175:13-37
+187            android:parentActivityName="com.innovation.tramo.logIn.ActivityLogInDriver"
+187-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:178:13-68
+188            android:screenOrientation="portrait"
+188-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:176:13-49
+189            android:theme="@style/Theme.TRAMO.NoActionBar" />
+189-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:179:13-59
+190        <activity
+190-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:180:9-186:62
+191            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterNine"
+191-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:181:13-79
+192            android:exported="false"
+192-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:182:13-37
+193            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterEight"
+193-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:185:13-94
+194            android:screenOrientation="portrait"
+194-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:183:13-49
+195            android:theme="@style/Theme.TRAMO.NoActionBar" />
+195-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:186:13-59
+196        <activity
+196-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:187:9-193:62
+197            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterEight"
+197-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:188:13-80
+198            android:exported="false"
+198-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:189:13-37
+199            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterSeven"
+199-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:192:13-94
+200            android:screenOrientation="portrait"
+200-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:190:13-49
+201            android:theme="@style/Theme.TRAMO.NoActionBar" />
+201-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:193:13-59
+202        <activity
+202-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:194:9-200:62
+203            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterSeven"
+203-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:195:13-80
+204            android:exported="false"
+204-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:196:13-37
+205            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterSix"
+205-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:199:13-92
+206            android:screenOrientation="portrait"
+206-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:197:13-49
+207            android:theme="@style/Theme.TRAMO.NoActionBar" />
+207-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:200:13-59
+208        <activity
+208-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:201:9-207:62
+209            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterSix"
+209-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:202:13-78
+210            android:exported="false"
+210-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:203:13-37
+211            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterFive"
+211-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:206:13-93
+212            android:screenOrientation="portrait"
+212-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:204:13-49
+213            android:theme="@style/Theme.TRAMO.NoActionBar" />
+213-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:207:13-59
+214        <activity
+214-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:208:9-214:62
+215            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterFive"
+215-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:209:13-79
+216            android:exported="false"
+216-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:210:13-37
+217            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterFour"
+217-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:213:13-93
+218            android:screenOrientation="portrait"
+218-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:211:13-49
+219            android:theme="@style/Theme.TRAMO.NoActionBar" />
+219-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:214:13-59
+220        <activity
+220-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:215:9-221:62
+221            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterFour"
+221-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:216:13-79
+222            android:exported="false"
+222-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:217:13-37
+223            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterThree"
+223-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:220:13-94
+224            android:screenOrientation="portrait"
+224-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:218:13-49
+225            android:theme="@style/Theme.TRAMO.NoActionBar" />
+225-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:221:13-59
+226        <activity
+226-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:222:9-228:62
+227            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterThree"
+227-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:223:13-80
+228            android:exported="false"
+228-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:224:13-37
+229            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterTwo"
+229-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:227:13-92
+230            android:screenOrientation="portrait"
+230-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:225:13-49
+231            android:theme="@style/Theme.TRAMO.NoActionBar" />
+231-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:228:13-59
+232        <activity
+232-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:229:9-235:62
+233            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterTwo"
+233-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:230:13-78
+234            android:exported="false"
+234-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:231:13-37
+235            android:parentActivityName="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterOne"
+235-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:234:13-92
+236            android:screenOrientation="portrait"
+236-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:232:13-49
+237            android:theme="@style/Theme.TRAMO.NoActionBar" />
+237-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:235:13-59
+238        <activity
+238-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:236:9-242:62
+239            android:name="com.innovation.tramo.register.driverRegister.ActivityDriverRegisterOne"
+239-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:237:13-78
+240            android:exported="false"
+240-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:238:13-37
+241            android:parentActivityName="com.innovation.tramo.logIn.ActivityLogInDriver"
+241-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:241:13-68
+242            android:screenOrientation="portrait"
+242-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:239:13-49
+243            android:theme="@style/Theme.TRAMO.NoActionBar" />
+243-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:242:13-59
+244        <activity
+244-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:243:9-249:62
+245            android:name="com.innovation.tramo.logIn.ActivityLogInClient"
+245-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:244:13-54
+246            android:exported="false"
+246-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:245:13-37
+247            android:parentActivityName="com.innovation.tramo.logIn.ActivityPersonOrCompany"
+247-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:248:13-72
+248            android:screenOrientation="portrait"
+248-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:246:13-49
+249            android:theme="@style/Theme.TRAMO.NoActionBar" />
+249-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:249:13-59
+250        <activity
+250-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:250:9-256:62
+251            android:name="com.innovation.tramo.logIn.ActivityLogInDriver"
+251-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:251:13-54
+252            android:exported="false"
+252-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:252:13-37
+253            android:parentActivityName="com.innovation.tramo.MainActivity"
+253-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:255:13-55
+254            android:screenOrientation="portrait"
+254-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:253:13-49
+255            android:theme="@style/Theme.TRAMO.NoActionBar" />
+255-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:256:13-59
+256        <activity
+256-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:257:9-263:62
+257            android:name="com.innovation.tramo.logIn.ActivityPersonOrCompany"
+257-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:258:13-58
+258            android:exported="false"
+258-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:259:13-37
+259            android:parentActivityName="com.innovation.tramo.MainActivity"
+259-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:262:13-55
+260            android:screenOrientation="portrait"
+260-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:260:13-49
+261            android:theme="@style/Theme.TRAMO.NoActionBar" />
+261-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:263:13-59
+262        <activity
+262-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:264:9-268:39
+263            android:name="com.innovation.tramo.MainActivity"
+263-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:265:13-41
+264            android:exported="false"
+264-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:268:13-37
+265            android:screenOrientation="portrait" />
+265-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:266:13-49
+266        <activity
+266-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:269:9-278:20
+267            android:name="com.innovation.tramo.SplashBackround"
+267-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:270:13-44
+268            android:exported="true"
+268-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:271:13-36
+269            android:theme="@style/SplashTheme" >
+269-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:272:13-47
+270            <intent-filter>
+270-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:273:13-277:29
+271                <action android:name="android.intent.action.MAIN" />
+271-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:274:17-69
+271-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:274:25-66
+272
+273                <category android:name="android.intent.category.LAUNCHER" />
+273-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:17-77
+273-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:27-74
+274            </intent-filter>
+275        </activity>
+276
+277        <service
+277-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:280:9-286:19
+278            android:name="com.innovation.tramo.fireBase.MyFirebaseMessagingService"
+278-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:281:13-64
+279            android:exported="false" >
+279-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:282:13-37
+280            <intent-filter>
+280-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:283:13-285:29
+281                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+281-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:284:17-78
+281-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:284:25-75
+282            </intent-filter>
+283        </service>
+284
+285        <meta-data
+285-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:288:9-290:52
+286            android:name="com.google.firebase.messaging.default_notification_icon"
+286-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:289:13-83
+287            android:resource="@drawable/logofin" />
+287-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:290:13-49
+288        <meta-data
+288-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:291:9-293:47
+289            android:name="com.google.firebase.messaging.default_notification_color"
+289-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:292:13-84
+290            android:resource="@color/white" />
+290-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:293:13-44
+291        <meta-data
+291-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:294:9-296:55
+292            android:name="com.google.android.geo.API_KEY"
+292-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:295:13-58
+293            android:value="@string/google_maps_key" />
+293-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:296:13-52
+294
+295        <service
+295-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:11:9-17:19
+296            android:name="com.google.firebase.components.ComponentDiscoveryService"
+296-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:12:13-84
+297            android:directBootAware="true"
+297-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+298            android:exported="false" >
+298-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:13:13-37
+299            <meta-data
+299-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+300                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.ktx.FirebaseInAppMessagingDisplayKtxRegistrar"
+300-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:15:17-151
+301                android:value="com.google.firebase.components.ComponentRegistrar" />
+301-->[com.google.firebase:firebase-inappmessaging-display-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5785eedc08c07cf8badc140f65c514bd\transformed\firebase-inappmessaging-display-ktx-20.3.2\AndroidManifest.xml:16:17-82
+302            <meta-data
+302-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:24:13-26:85
+303                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+303-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:25:17-144
+304                android:value="com.google.firebase.components.ComponentRegistrar" />
+304-->[com.google.firebase:firebase-inappmessaging-display:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\5dda894eeeecceec6a29b0f9c429c66d\transformed\firebase-inappmessaging-display-20.3.2\AndroidManifest.xml:26:17-82
+305            <meta-data
+305-->[com.google.firebase:firebase-perf-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\360146027c4d46ba4f6da5450c0d5919\transformed\firebase-perf-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+306                android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar"
+306-->[com.google.firebase:firebase-perf-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\360146027c4d46ba4f6da5450c0d5919\transformed\firebase-perf-ktx-20.3.2\AndroidManifest.xml:15:17-116
+307                android:value="com.google.firebase.components.ComponentRegistrar" />
+307-->[com.google.firebase:firebase-perf-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\360146027c4d46ba4f6da5450c0d5919\transformed\firebase-perf-ktx-20.3.2\AndroidManifest.xml:16:17-82
+308            <meta-data
+308-->[com.google.firebase:firebase-perf:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\dacb41885b48242c49f017ea5fab58ee\transformed\firebase-perf-20.3.2\AndroidManifest.xml:16:13-18:85
+309                android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar"
+309-->[com.google.firebase:firebase-perf:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\dacb41885b48242c49f017ea5fab58ee\transformed\firebase-perf-20.3.2\AndroidManifest.xml:17:17-109
+310                android:value="com.google.firebase.components.ComponentRegistrar" />
+310-->[com.google.firebase:firebase-perf:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\dacb41885b48242c49f017ea5fab58ee\transformed\firebase-perf-20.3.2\AndroidManifest.xml:18:17-82
+311            <meta-data
+311-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\2bc760a3b5fcdc02bb7da6b714f4c3a8\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:28:13-30:85
+312                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar"
+312-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\2bc760a3b5fcdc02bb7da6b714f4c3a8\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:29:17-126
+313                android:value="com.google.firebase.components.ComponentRegistrar" />
+313-->[com.google.firebase:firebase-messaging-ktx:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\2bc760a3b5fcdc02bb7da6b714f4c3a8\transformed\firebase-messaging-ktx-23.1.2\AndroidManifest.xml:30:17-82
+314            <meta-data
+314-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\3a49c35fa26542c8c88ec11d6bd13702\transformed\firebase-analytics-ktx-21.2.2\AndroidManifest.xml:11:13-13:85
+315                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+315-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\3a49c35fa26542c8c88ec11d6bd13702\transformed\firebase-analytics-ktx-21.2.2\AndroidManifest.xml:12:17-126
+316                android:value="com.google.firebase.components.ComponentRegistrar" />
+316-->[com.google.firebase:firebase-analytics-ktx:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\3a49c35fa26542c8c88ec11d6bd13702\transformed\firebase-analytics-ktx-21.2.2\AndroidManifest.xml:13:17-82
+317            <meta-data
+317-->[com.google.firebase:firebase-inappmessaging-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\1318520e1c0f96dac549e30912443715\transformed\firebase-inappmessaging-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+318                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.ktx.FirebaseInAppMessagingKtxRegistrar"
+318-->[com.google.firebase:firebase-inappmessaging-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\1318520e1c0f96dac549e30912443715\transformed\firebase-inappmessaging-ktx-20.3.2\AndroidManifest.xml:15:17-136
+319                android:value="com.google.firebase.components.ComponentRegistrar" />
+319-->[com.google.firebase:firebase-inappmessaging-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\1318520e1c0f96dac549e30912443715\transformed\firebase-inappmessaging-ktx-20.3.2\AndroidManifest.xml:16:17-82
+320            <meta-data
+320-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\2e5c08b3e02f151f6dfcda5065709526\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:14:13-16:85
+321                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+321-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\2e5c08b3e02f151f6dfcda5065709526\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:15:17-113
+322                android:value="com.google.firebase.components.ComponentRegistrar" />
+322-->[com.google.firebase:firebase-common-ktx:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\2e5c08b3e02f151f6dfcda5065709526\transformed\firebase-common-ktx-20.3.2\AndroidManifest.xml:16:17-82
+323            <meta-data
+323-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+324                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+324-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+325                android:value="com.google.firebase.components.ComponentRegistrar" />
+325-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+326            <meta-data
+326-->[com.google.firebase:firebase-inappmessaging:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\6ce950907a74a06081207fd87b92d59b\transformed\firebase-inappmessaging-20.3.2\AndroidManifest.xml:16:13-18:85
+327                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+327-->[com.google.firebase:firebase-inappmessaging:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\6ce950907a74a06081207fd87b92d59b\transformed\firebase-inappmessaging-20.3.2\AndroidManifest.xml:17:17-129
+328                android:value="com.google.firebase.components.ComponentRegistrar" />
+328-->[com.google.firebase:firebase-inappmessaging:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\6ce950907a74a06081207fd87b92d59b\transformed\firebase-inappmessaging-20.3.2\AndroidManifest.xml:18:17-82
+329            <meta-data
+329-->[com.google.firebase:firebase-config:21.3.0] C:\Users\yonat\.gradle\caches\transforms-3\485d3e88ecd6432a1005ba17f45b6e85\transformed\firebase-config-21.3.0\AndroidManifest.xml:31:13-33:85
+330                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+330-->[com.google.firebase:firebase-config:21.3.0] C:\Users\yonat\.gradle\caches\transforms-3\485d3e88ecd6432a1005ba17f45b6e85\transformed\firebase-config-21.3.0\AndroidManifest.xml:32:17-117
+331                android:value="com.google.firebase.components.ComponentRegistrar" />
+331-->[com.google.firebase:firebase-config:21.3.0] C:\Users\yonat\.gradle\caches\transforms-3\485d3e88ecd6432a1005ba17f45b6e85\transformed\firebase-config-21.3.0\AndroidManifest.xml:33:17-82
+332            <meta-data
+332-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\cfcb6818bce3c12d4050f8af6807648b\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+333                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+333-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\cfcb6818bce3c12d4050f8af6807648b\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+334                android:value="com.google.firebase.components.ComponentRegistrar" />
+334-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\cfcb6818bce3c12d4050f8af6807648b\transformed\play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+335            <meta-data
+335-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\yonat\.gradle\caches\transforms-3\6ba3c5de1c619d55eb19aaa6c780a24e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+336                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+336-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\yonat\.gradle\caches\transforms-3\6ba3c5de1c619d55eb19aaa6c780a24e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+337                android:value="com.google.firebase.components.ComponentRegistrar" />
+337-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\yonat\.gradle\caches\transforms-3\6ba3c5de1c619d55eb19aaa6c780a24e\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+338            <meta-data
+338-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\yonat\.gradle\caches\transforms-3\c28a49b8f82d3d204eac975f6433ffda\transformed\firebase-abt-21.1.1\AndroidManifest.xml:12:13-14:85
+339                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+339-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\yonat\.gradle\caches\transforms-3\c28a49b8f82d3d204eac975f6433ffda\transformed\firebase-abt-21.1.1\AndroidManifest.xml:13:17-109
+340                android:value="com.google.firebase.components.ComponentRegistrar" />
+340-->[com.google.firebase:firebase-abt:21.1.1] C:\Users\yonat\.gradle\caches\transforms-3\c28a49b8f82d3d204eac975f6433ffda\transformed\firebase-abt-21.1.1\AndroidManifest.xml:14:17-82
+341            <meta-data
+341-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\yonat\.gradle\caches\transforms-3\8e6f8a0a49be2d35d48a64b22cf97289\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:27:13-29:85
+342                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+342-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\yonat\.gradle\caches\transforms-3\8e6f8a0a49be2d35d48a64b22cf97289\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:28:17-115
+343                android:value="com.google.firebase.components.ComponentRegistrar" />
+343-->[com.google.firebase:firebase-datatransport:18.1.8] C:\Users\yonat\.gradle\caches\transforms-3\8e6f8a0a49be2d35d48a64b22cf97289\transformed\firebase-datatransport-18.1.8\AndroidManifest.xml:29:17-82
+344        </service>
+345
+346        <activity
+346-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:15:9-21:20
+347            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+347-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:16:13-91
+348            android:exported="false"
+348-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:17:13-37
+349            android:label="@string/places_autocomplete_label"
+349-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:18:13-62
+350            android:theme="@style/PlacesAutocompleteOverlay"
+350-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:19:13-61
+351            android:windowSoftInputMode="adjustResize" >
+351-->[com.google.android.libraries.places:places:3.1.0] C:\Users\yonat\.gradle\caches\transforms-3\84609ee9e27fd2e300b6f3a26410745a\transformed\places-3.1.0\AndroidManifest.xml:20:13-55
+352        </activity> <!-- Needs to be explicitly declared on P+ -->
+353        <uses-library
+353-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+354            android:name="org.apache.http.legacy"
+354-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+355            android:required="false" />
+355-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\342bd89779e41cf04e6adf1ab319465d\transformed\play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+356
+357        <receiver
+357-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+358            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+358-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+359            android:exported="true"
+359-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+360            android:permission="com.google.android.c2dm.permission.SEND" >
+360-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+361            <intent-filter>
+361-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+362                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+362-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+362-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+363            </intent-filter>
+364        </receiver>
+365        <!--
+366             FirebaseMessagingService performs security checks at runtime,
+367             but set to not exported to explicitly avoid allowing another app to call it.
+368        -->
+369        <service
+369-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+370            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+370-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+371            android:directBootAware="true"
+371-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+372            android:exported="false" >
+372-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\yonat\.gradle\caches\transforms-3\9636d905800520edaa315f69b8ce1dda\transformed\firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+373            <intent-filter android:priority="-500" >
+373-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:283:13-285:29
+374                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+374-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:284:17-78
+374-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:284:25-75
+375            </intent-filter>
+376        </service>
+377
+378        <provider
+378-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+379            android:name="com.google.firebase.provider.FirebaseInitProvider"
+379-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+380            android:authorities="com.innovation.tramo.firebaseinitprovider"
+380-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+381            android:directBootAware="true"
+381-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+382            android:exported="false"
+382-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+383            android:initOrder="100" />
+383-->[com.google.firebase:firebase-common:20.3.2] C:\Users\yonat\.gradle\caches\transforms-3\fe89d155af3f85a30b2ccdb59553c366\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+384
+385        <activity
+385-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\d071691e2578d1192be3a0f9694533c8\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+386            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+386-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\d071691e2578d1192be3a0f9694533c8\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+387            android:exported="false"
+387-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\d071691e2578d1192be3a0f9694533c8\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+388            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+388-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\d071691e2578d1192be3a0f9694533c8\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+389
+390        <receiver
+390-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+391            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+391-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+392            android:enabled="true"
+392-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+393            android:exported="false" >
+393-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+394        </receiver>
+395
+396        <service
+396-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+397            android:name="com.google.android.gms.measurement.AppMeasurementService"
+397-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+398            android:enabled="true"
+398-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+399            android:exported="false" />
+399-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+400        <service
+400-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+401            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+401-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+402            android:enabled="true"
+402-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+403            android:exported="false"
+403-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+404            android:permission="android.permission.BIND_JOB_SERVICE" />
+404-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\yonat\.gradle\caches\transforms-3\515c7dc683b9331a0ee8f5855b58b75b\transformed\play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+405
+406        <meta-data
+406-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\44c07473550f9c1de1675e2cc4b26e40\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+407            android:name="com.google.android.gms.version"
+407-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\44c07473550f9c1de1675e2cc4b26e40\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+408            android:value="@integer/google_play_services_version" />
+408-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\yonat\.gradle\caches\transforms-3\44c07473550f9c1de1675e2cc4b26e40\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+409
+410        <activity
+410-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:27:9-34:20
+411            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+411-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:28:13-99
+412            android:exported="true"
+412-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:29:13-36
+413            android:theme="@style/WhiteBackgroundTheme" >
+413-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:30:13-56
+414            <intent-filter android:priority="-100" >
+414-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+414-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+415                <category android:name="android.intent.category.LAUNCHER" />
+415-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:17-77
+415-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:27-74
+416            </intent-filter>
+417        </activity>
+418        <activity
+418-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:35:9-42:20
+419            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+419-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:36:13-95
+420            android:exported="true"
+420-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:37:13-36
+421            android:theme="@style/WhiteBackgroundTheme" >
+421-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:38:13-56
+422            <intent-filter android:priority="-100" >
+422-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+422-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+423                <category android:name="android.intent.category.LAUNCHER" />
+423-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:17-77
+423-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:27-74
+424            </intent-filter>
+425        </activity>
+426        <activity
+426-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:43:9-50:20
+427            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+427-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:44:13-103
+428            android:exported="true"
+428-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:45:13-36
+429            android:theme="@style/WhiteBackgroundDialogTheme" >
+429-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:46:13-62
+430            <intent-filter android:priority="-100" >
+430-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:13-33:29
+430-->[androidx.test:core:1.5.0] C:\Users\yonat\.gradle\caches\transforms-3\9e064069da063a1b158322480e3633e3\transformed\core-1.5.0\AndroidManifest.xml:31:28-51
+431                <category android:name="android.intent.category.LAUNCHER" />
+431-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:17-77
+431-->C:\TRAMO X\TRAMO\app\src\main\AndroidManifest.xml:276:27-74
+432            </intent-filter>
+433        </activity>
+434
+435        <provider
+435-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+436            android:name="androidx.startup.InitializationProvider"
+436-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+437            android:authorities="com.innovation.tramo.androidx-startup"
+437-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+438            android:exported="false" >
+438-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+439            <meta-data
+439-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+440                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+440-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+441                android:value="androidx.startup" />
+441-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yonat\.gradle\caches\transforms-3\e4485f24efd8f3c9779915fea23d7933\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+442            <meta-data
+442-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yonat\.gradle\caches\transforms-3\b99d0f373e26a9034a0ce1acc80f581f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+443                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+443-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yonat\.gradle\caches\transforms-3\b99d0f373e26a9034a0ce1acc80f581f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+444                android:value="androidx.startup" />
+444-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\yonat\.gradle\caches\transforms-3\b99d0f373e26a9034a0ce1acc80f581f\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+445            <meta-data
+445-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+446                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+446-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+447                android:value="androidx.startup" />
+447-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+448        </provider>
+449
+450        <uses-library
+450-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+451            android:name="androidx.window.extensions"
+451-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+452            android:required="false" />
+452-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+453        <uses-library
+453-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+454            android:name="androidx.window.sidecar"
+454-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+455            android:required="false" />
+455-->[androidx.window:window:1.0.0] C:\Users\yonat\.gradle\caches\transforms-3\1397fb07f5d52c5d01f38a1b275903fe\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+456
+457        <service
+457-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:28:9-34:19
+458            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+458-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:29:13-103
+459            android:exported="false" >
+459-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:30:13-37
+460            <meta-data
+460-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:31:13-33:39
+461                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+461-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:32:17-94
+462                android:value="cct" />
+462-->[com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\23cfcfe36b157e5b13f683cc1c7d5a1a\transformed\transport-backend-cct-3.1.9\AndroidManifest.xml:33:17-36
+463        </service>
+464        <service
+464-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:26:9-30:19
+465            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+465-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:27:13-117
+466            android:exported="false"
+466-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:28:13-37
+467            android:permission="android.permission.BIND_JOB_SERVICE" >
+467-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:29:13-69
+468        </service>
+469
+470        <receiver
+470-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:32:9-34:40
+471            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+471-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:33:13-132
+472            android:exported="false" />
+472-->[com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\yonat\.gradle\caches\transforms-3\a7febc189e86da87c402c5011ebaa63f\transformed\transport-runtime-3.1.9\AndroidManifest.xml:34:13-37
+473        <receiver
+473-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+474            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+474-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+475            android:directBootAware="false"
+475-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+476            android:enabled="true"
+476-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+477            android:exported="true"
+477-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+478            android:permission="android.permission.DUMP" >
+478-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+479            <intent-filter>
+479-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+480                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+480-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+480-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+481            </intent-filter>
+482            <intent-filter>
+482-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+483                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+483-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+483-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+484            </intent-filter>
+485            <intent-filter>
+485-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+486                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+486-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+486-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+487            </intent-filter>
+488            <intent-filter>
+488-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+489                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+489-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+489-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yonat\.gradle\caches\transforms-3\e629e1167cd6c2bf13fbc8b9846c611b\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+490            </intent-filter>
+491        </receiver>
+492    </application>
+493
+494</manifest>

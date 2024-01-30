@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="GRAY">#D1D0D0</color>
+    <color name="amarrillo_placa">#FFEA00</color>
+    <color name="black">#FF000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#B9B7B7</color>
+    <color name="gray_light">#D5D3D3</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="naranja">#EF6C00</color>
+    <color name="primary">#4154F1</color>
+    <color name="primaryWeb">#161627</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondaryWeb">#E79D27</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="verde">#11D319</color>
+    <color name="verde_oscuro">#0E8312</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteBackground">#f5f4ea</color>
+    <color name="yellow">#FFEB3B</color>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">350dp</dimen>
+    <dimen name="nav_header_vertical_spacing">5dp</dimen>
+    <dimen name="original_text_size">16sp</dimen>
+    <dimen name="original_timer_size">32sp</dimen>
+    <string name="Acerca_de_la_aplicacion">Acerca de la aplicacion</string>
+    <string name="CONTINUAR">CONTINUAR</string>
+    <string name="CompaniaSeguro">Ingrese la compañia del Seguro</string>
+    <string name="Historial">Historial de viajes</string>
+    <string name="IngreseSOAT">Numero de seguro obligatorio SOAT</string>
+    <string name="Perfil">Perfil</string>
+    <string name="PolizaResponsabilidad">Poliza de responsabilidad Civil Contractual</string>
+    <string name="RevisionTecnicomecanica">Numero de revision Tecnicomecanica</string>
+    <string name="VALIDATION">En unas horas ya seras parte de TRAMO Tenemos que verificar que tus datos sean validos.</string>
+    <string name="VALIDATION2">Nos comunicaremos contigo una vez validemos los datos \n \n Despues ya podras iniciar sesión</string>
+    <string name="VencimientoSOAT">Ingrese la fecha de vencimiento del SOAT</string>
+    <string name="VencimientoTecnomecanica">Fecha de vencimiento de TecnoMecanica</string>
+    <string name="aceptar">aceptar</string>
+    <string name="aceptar_terminos">Aceptar Terminos</string>
+    <string name="action_settings">action_settings</string>
+    <string name="agrega_descripcion_de_ubicacion">Agrega descripcion de ubicacion</string>
+    <string name="agregar_otro_producto">Agregar otro producto</string>
+    <string name="agregar_una_descripcion_para_la_carga">Agregar una descripcion para la carga</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="apellidoss">Apellidos :</string>
+    <string name="app_name">TRAMO</string>
+    <string name="atencionconductor">Mala atencion del conductor</string>
+    <string name="bienvenidaClient">Bienvenido a TRAMO</string>
+    <string name="bienvenidaClients">Apartir de este momento puedes iiciar sesion en TRAMO disfruta de cada uno de tus beneficios</string>
+    <string name="bienvenidaConductor">Bienvenido a Tramo Señor Conductor</string>
+    <string name="bienvenidotramo">Bienvenido a TRAMO</string>
+    <string name="calendario">Calendario</string>
+    <string name="calificacion">Calificacion</string>
+    <string name="calificacionn">Calificacion :</string>
+    <string name="cambia_la_foto_de_perfil">Cambia la foto de perfil</string>
+    <string name="cantidad_de_carga">Cantidad de carga en kilos</string>
+    <string name="capacidad_de_carga">Capacidad de carga</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">00000000000000000000000000000000</string>
+    <string name="compania_seguro">Compañia seguro</string>
+    <string name="conductor">Conductor:</string>
+    <string name="configuraciones">Configuracion</string>
+    <string name="confirma_contraseña">Confirma contraseña</string>
+    <string name="confirmar_contraseña">Confirmar contraseña</string>
+    <string name="confirme_su_contraseña">Confirme su contraseña</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo_de_recuperacion">Correo De Recuperacion</string>
+    <string name="correo_electronico">Correo Electronico</string>
+    <string name="correo_electronico_recuperacion">Ingrese un correo electronico de recuperación</string>
+    <string name="correo_electronicoo">Correo electronico:</string>
+    <string name="datos_emergencia">Datos en caso de emergencia</string>
+    <string name="datos_empresa">Ingrese datos empresa</string>
+    <string name="datos_personales">Datos personales</string>
+    <string name="datos_posedor_tenedor_vehiculoo">Datos del poseedor o tenedor del vehículo</string>
+    <string name="datos_vehiculo">Datos del vehiculo</string>
+    <string name="datosperfil">Datos del perfil</string>
+    <string name="default_web_client_id" translatable="false">719266733535-39pn4h2pgl7cblmi4268k7gfhkugqbcs.apps.googleusercontent.com</string>
+    <string name="demoras_en_servicio">Demoras en servicio</string>
+    <string name="desarrolladores">Desarrolladores</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="descripcion_de_carga">Descripcion de carga</string>
+    <string name="descripcion_n_de_carga">Descripción de carga:</string>
+    <string name="descripcion_ubicacion_carga">Descripcion para la ubicacion de la carga</string>
+    <string name="destinatario">Destinatario:</string>
+    <string name="destino_de_la_carga">Destino de la carga</string>
+    <string name="digite_una_contraseña">Digite una contrseña segura</string>
+    <string name="direccion_empresa">Dirección Empresa</string>
+    <string name="direccion_residencia">Direccion residencia</string>
+    <string name="direccionn">Direccion :</string>
+    <string name="documento_identidad_nit">Ingrese su documento de identidad - Nit</string>
+    <string name="documento_identificacion">Documento Identificacion</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="editar">editar</string>
+    <string name="ejes_vehiculo">Ejes vehiculo</string>
+    <string name="el_conductor_acepto_el_pedido">el conductor acepto el pedido</string>
+    <string name="el_conductor_no_pudo_acepto_el_pedido">el conductor no pudo aceptar el pedido</string>
+    <string name="elegir_ubicacion_gps">ELEGIR UBICACION - GPS</string>
+    <string name="elige_un_vehiculo_a_tu_gusto">Elige un vehiculo a tu gusto</string>
+    <string name="elija_su_contraseña">Elija su contraseña</string>
+    <string name="elija_su_fecha_para_el_viaje">Elija su fecha para el viaje</string>
+    <string name="empresa">Empresa</string>
+    <string name="en_espera">En espera</string>
+    <string name="enviar_datos">Enviar Datos</string>
+    <string name="escribe_tu_mensaje">Escribe tu mensaje</string>
+    <string name="especificacion_de_carga">Especificacion de carga</string>
+    <string name="esperando_que_el_conductor_acepte_el_pedido">Esperando que el conductor acepte el pedido</string>
+    <string name="fecha_de_vencimiento_de_tecnomecanica">Fecha de vencimiento de TecnoMecanica</string>
+    <string name="fecha_nacimiento">fecha nacimiento</string>
+    <string name="felipe_dulcey_idrobo_nroberto_carlos_noguera_njhon_sebastian_hurtado_nyonatan_david_pechene_nfelipe_segura_villamarin_nhernan_dario_zu_iga">Felipe Dulcey idrobo \nRoberto Carlos Noguera\nJhon Sebastian Hurtado\nYonatan David Pechene\nFelipe Segura Villamarin\nHernan dario zuñiga</string>
+    <string name="filtar_por_selecion">Filtar por selecion</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="footer">footer</string>
+    <string name="fotoPerfil">Por favor añada una foto de perfil</string>
+    <string name="foto_frontal_del_vehiculo">Foto Frontal del vehiculo</string>
+    <string name="foto_lateral_derecha_del_vehiculo">Foto lateral derecha del vehiculo</string>
+    <string name="foto_lateral_izquierda_del_vehiculo">Foto lateral izquierda del vehiculo</string>
+    <string name="foto_trasera_del_vehiculo">Foto trasera del vehiculo</string>
+    <string name="fotografiasVehiculo">Fotografias del vehiculo</string>
+    <string name="gcm_defaultSenderId" translatable="false">719266733535</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9zi9lHbZAG129UVdXHG1iJPv4giFqQOw</string>
+    <string name="google_app_id" translatable="false">1:719266733535:android:b3e5bb04a9755ef6beb86a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9zi9lHbZAG129UVdXHG1iJPv4giFqQOw</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBUZRRxFmKpsMezK91NzDCf-YlY9rrfUlc</string>
+    <string name="google_storage_bucket" translatable="false">tramo-14fa8.appspot.com</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="he_llegado">He llegado</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="identificacion">Identificacion</string>
+    <string name="informacion_completa_de_su_carga">INFORMACION COMPLETA DE SU CARGA</string>
+    <string name="ingreseContrasena">Ingrese su contraseña</string>
+    <string name="ingreseUsuario">Ingrese su correo</string>
+    <string name="ingrese_cantidad_carga">Ingrese la cantidad de carga</string>
+    <string name="ingrese_ciudad">Ingrese su ciudad</string>
+    <string name="ingrese_direccion_residencia">Ingrese su dirección de residencia</string>
+    <string name="ingrese_direcion_residencia">Ingrese su dirección de residencia</string>
+    <string name="ingrese_documento_de_identidad">Ingrese su documento de identidad</string>
+    <string name="ingrese_el_correo_electronico">Ingrese el correo electronico</string>
+    <string name="ingrese_el_correo_electronico_empresa">Ingrese el correo electronico Empresa</string>
+    <string name="ingrese_el_modelo_del_vehiculo">Ingrese el modelo del vehiculo</string>
+    <string name="ingrese_el_numero_de_ejes_del_vehiculo">Ingrese el numero de ejes del vehiculo</string>
+    <string name="ingrese_el_peso_vacio_del_vehiculo">Ingrese el peso vacio del vehiculo</string>
+    <string name="ingrese_fecha_de_nacimiento">Ingrese Fecha de nacimiento</string>
+    <string name="ingrese_fecha_de_vencimiento_del_soat">Ingrese Fecha de vencimiento del SOAT</string>
+    <string name="ingrese_la_marca_del_vehiculo">Ingrese la marca del vehiculo</string>
+    <string name="ingrese_la_placa_del_trailer">Ingrese la placa del trailer</string>
+    <string name="ingrese_la_placa_del_vehiculo">Ingrese la placa del vehiculo</string>
+    <string name="ingrese_la_traccion_del_vehiculo">Ingrese la traccion del vehiculo</string>
+    <string name="ingrese_nacionalidad">Ingrese su nacionalidad</string>
+    <string name="ingrese_nit_empresa">Ingrese el NIT de la empresa</string>
+    <string name="ingrese_nombre_empresa">Ingrese el nombre de su empresa</string>
+    <string name="ingrese_nombre_identidad">Ingrese nombre de identidad</string>
+    <string name="ingrese_nombre_usuario">Ingrese un nombre para su usuario</string>
+    <string name="ingrese_numero_identificacion">Ingrese su numero de identificación</string>
+    <string name="ingrese_numero_licencia">Ingrese su numero de licencia</string>
+    <string name="ingrese_numero_telefono">Ingrese su numero de telefono</string>
+    <string name="ingrese_numero_telefono_empresa">Ingrese el numero de telefono de la empresa</string>
+    <string name="ingrese_primer_apellido">Ingrese su primer apellido</string>
+    <string name="ingrese_primer_nombre">Ingrese su primer nombre</string>
+    <string name="ingrese_producto_transportar">Ingrese su producto a transportar</string>
+    <string name="ingrese_respuesta_seguridad">Ingrese una respuesta de seguridad</string>
+    <string name="ingrese_segundo_apellido">Ingrese su segundo apellido</string>
+    <string name="ingrese_segundo_nombre">Ingrese su segundo nombre</string>
+    <string name="ingrese_su_contraseña">Ingrese su contraseña</string>
+    <string name="ingrese_sus_apellidos">ingrese sus apellidos</string>
+    <string name="ingrese_sus_nombres">Ingrese sus nombres</string>
+    <string name="ingrese_tipo_empaquetado">Ingrese el tipo de empaquetado</string>
+    <string name="inicia_sesion">Inicia sesión</string>
+    <string name="inicia_sesion_conductor">Inicia sesión conductor</string>
+    <string name="inicia_sesion_registrate">Inicia sesión - registrate como:</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="ir_como_cliente">Ir como cliente</string>
+    <string name="ir_como_conductor">Ir como conductor</string>
+    <string name="logo">Logo</string>
+    <string name="mala_atencion_del_conductor">Mala atencion</string>
+    <string name="manifiesto_de_carga">Manifiesto de carga</string>
+    <string name="marca_vehiculo">Marca vehiculo</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="menu_home">Solucitud de servicio</string>
+    <string name="message_pqrs">Hola!! \nMuchas gracias por ponerte en contacto con nosotros.\nPor favor seleciona una opcion para brindarte la informacion necesaria.</string>
+    <string name="metodo_de_pago">Metodo de pago:</string>
+    <string name="modelo_vehiculo">Modelo vehiculo</string>
+    <string name="msg_token_fmt">nuevo token</string>
+    <string name="nacionalidad">Nacionalidad</string>
+    <string name="nav_header_title">TRAMO</string>
+    <string name="navegar">navegar</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="negociar_precio">NEGOCIAR PRECIO</string>
+    <string name="next">Next</string>
+    <string name="nit_empresa">NIT Empresa</string>
+    <string name="no_obligatorio">No obligatorio</string>
+    <string name="nombre_de_identidad">Nombre de identidad</string>
+    <string name="nombre_empresa">Nombre Empresa</string>
+    <string name="nombre_reprecentante_legal">Ingrese el nombre del reprecentante legal</string>
+    <string name="nombre_usuario">Nombre Usuario</string>
+    <string name="nombres">Nombres</string>
+    <string name="nombress">Nombres :</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="numeroLicencia">Numero de licencia de transito del vehiculo</string>
+    <string name="numero_de_documento">numero de documento</string>
+    <string name="numero_de_telefono_empresa">numero de telefono Empresa</string>
+    <string name="numero_identificacion">Numero identificacion</string>
+    <string name="numero_licencia">Numero licencia</string>
+    <string name="numero_telefonico">Numero Telefonico</string>
+    <string name="numero_telefono">Numero Telefono</string>
+    <string name="pago_de_carga">Pago de Carga:</string>
+    <string name="pago_de_descarga">Pago de descarga:</string>
+    <string name="persona">Persona</string>
+    <string name="peso_vacio">Peso vacio</string>
+    <string name="placa_trailer">Placa trailer</string>
+    <string name="placa_vehiculo">Placa vehiculo</string>
+    <string name="politicasTRAMO">Al registrarse, acepta los Términos de servicio de TRAMO y política de privacidad.</string>
+    <string name="pqrs">PQRS</string>
+    <string name="precio_de_transporte_de_la_carga">Precio de transporte de la carga</string>
+    <string name="precio_sugerido">PRECIO SUGERIDO:</string>
+    <string name="pregunta_de_seguridad">Pregunta de seguridad</string>
+    <string name="presentacion_carga">Presentacion carga</string>
+    <string name="previous">Previous</string>
+    <string name="primer_apellido">Primer Apellido</string>
+    <string name="primer_nombre">Primer Nombre</string>
+    <string name="producto_a_transportar">Producto a transportar</string>
+    <string name="project_id" translatable="false">tramo-14fa8</string>
+    <string name="propietariovehiculo">Datos del propietario de el vehiculo</string>
+    <string name="quejas">quejas</string>
+    <string name="quejass">Quejas</string>
+    <string name="razon_social_empresa">Razon Social Empresa</string>
+    <string name="rechazar">RECHAZAR</string>
+    <string name="registrate">Registrate</string>
+    <string name="registrate_como">registrate como</string>
+    <string name="registroConductor">Apartir de este momento empezara su registro como Conductor</string>
+    <string name="registro_conductor">Registro Conductor</string>
+    <string name="registro_datos_empresa">Registro datos empresa</string>
+    <string name="registro_empresa">Registro empresa</string>
+    <string name="registropersona">Registro Persona</string>
+    <string name="remesa">Remesa</string>
+    <string name="remesa_terreste_de_carga">remesa terreste de carga</string>
+    <string name="remitente">Remitente</string>
+    <string name="representante_legal">Representante Legal</string>
+    <string name="respuesta_de_seguridad">Respuesta de seguridad</string>
+    <string name="riesgo_de_carga">Riesgo de Carga</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="segundo_apellido">Segundo Apellido</string>
+    <string name="segundo_nombre">Segundo Nombre</string>
+    <string name="seleccione_una_opcion">Seleccione una opción</string>
+    <string name="selecionar_nuevo_conductor">selecionar nuevo conductor</string>
+    <string name="senorConductor">Señor Conductor</string>
+    <string name="sesion_empresa">Inicia Sesión Empresa</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="soat">Numero soat</string>
+    <string name="solicitar_servicio">solicitar servicio</string>
+    <string name="solicitud_de_servicio">Solicitud de servicio</string>
+    <string name="solicitud_de_servicio_para_despues">Solicitud de servicio para despues</string>
+    <string name="subir_foto_carga">Subir foto de la carga</string>
+    <string name="telefono">Telefono</string>
+    <string name="telefonoo">Telefono :</string>
+    <string name="terminarRegistro">TERMINAR REGISTRO</string>
+    <string name="terminar_registro">Terminar Registro</string>
+    <string name="terminosYcondicones">Al registrarse, acepta los Términos de servicio de TRAMO y política de privacidad.</string>
+    <string name="terminos_y_condiciones">Terminos y condiciones</string>
+    <string name="terminos_y_condiciones_de_tramo">TERMINOS Y CONDICIONES DE TRAMO</string>
+    <string name="terms_and_conditions">TRAMO Domiciliada en Popayán, con oficina principal en la Carrera 9 A # 99 – 02, Oficina 405, dirección electrónica: www.Tramo.com y teléfono (571) 5939100 (de ahora en adelante “Tramo”), pone en conocimiento de los titulares de los datos personales que sean tratados de cualquier manera por TRAMO, esta Política de Tratamiento de la Información (la “Política”), dando cumplimiento con ello a la Ley 1581 de 2012 y al Decreto 1377 de 2013. OBJETIVO En la presente Política se establecen las directrices mediante las cuales Tramo realiza el tratamiento de los datos personales, dar a conocer a los titulares el alcance y finalidad del tratamiento, derechos de los titulares, deberes de los responsables y encargados, así como los procedimientos para ejercer los derechos que les asisten a los Titulares de los datos personales. MARCO NORMATIVO · Constitución Política de Colombia Artículo 15 · Ley 1266 de 2008 · Ley 1581 de 2012 · Decreto 1377 de 2013 DEFINICIONES A los efectos de la presente política se tendrán en cuenta las definiciones señaladas en la Ley 1266 de 2008, la Ley 1581 de 2013 y el Decreto 1377 de 2013 y principalmente las siguientes definiciones: Autorización: Es el consentimiento previo, expreso e informado del Titular para llevar a cabo el tratamiento de sus Datos Personales. Base de Datos: Es el conjunto organizado de Datos Personales que sean objeto de tratamiento. Dato Personal: Es cualquier información de cualquier tipo, vinculada o que pueda asociarse a una o varias personas naturales o jurídicas determinadas o determinables. Dato Público: Es el dato personal calificado como tal según los mandatos de la ley o de la Constitución Política y aquel que no sea semiprivado, privado o sensible. Son públicos, entre otros, los datos relativos al estado civil de las personas, a su profesión u oficio, a su calidad de comerciante o de servidor público y aquellos que puedan obtenerse sin reserva alguna. Por su naturaleza, los datos públicos pueden estar contenidos, entre otros, en registros públicos, documentos públicos, gacetas y boletines oficiales, sentencias judiciales debidamente ejecutoriadas que no estén sometidas a reserva. Encargado del Tratamiento: Es la persona natural o jurídica, pública o privada, que por sí misma o en asocio con otros, realice el Tratamiento de Datos Personales por cuenta del Responsable del Tratamiento. Titular del Dato Personal: Es la persona natural o jurídica a quien se refiere la información que reposa en una Base de Datos, y quien es el sujeto del derecho de hábeas data. Transferencia: Es el Tratamiento de Datos Personales que implica la comunicación de los mismos dentro o fuera del territorio de la República de Colombia cuando tenga por objeto la realización de un Tratamiento por el Encargado por cuenta del Responsable. Transmisión: Es la actividad de Tratamiento de Datos Personales mediante la cual se comunican los mismos, internamente o con terceras personas, dentro o fuera del territorio de la República de Colombia, cuando dicha comunicación tenga por objeto la realización de cualquier actividad de Tratamiento por el receptor del Dato Personal. Tratamiento de Datos Personales: Es toda operación y procedimiento sistemático, electrónico o no, que permita la recolección, conservación, ordenamiento, almacenamiento, modificación, relacionamiento, uso, circulación, evaluación, bloqueo, destrucción y en general, el procesamiento de Datos Personales, así como también su transferencia a terceros a través de comunicaciones, consultas, interconexiones, cesiones, mensajes de datos. PRINCIPIOS El Tratamiento de datos personales que realiza TRAMO se basa en los principios establecidos por la Ley 1581 de 2012 y el Decreto 1377 de 2013, los cuales son: Legalidad El Tratamiento a que se refiere la Ley 1581 de 2012 es una actividad reglada que debe sujetarse a lo establecido en ella y en las demás disposiciones que la desarrollen. Finalidad El Tratamiento debe obedecer a una finalidad legítima de acuerdo con la Constitución y la Ley, la cual debe ser informada al Titular. Libertad El Tratamiento sólo puede ejercerse con el consentimiento, previo, expreso e informado del Titular. Los datos personales no podrán ser obtenidos o divulgados sin previa autorización, o en ausencia de mandato legal o judicial que releve el consentimiento. Veracidad o calidad La información sujeta a Tratamiento debe ser veraz, completa, exacta, actualizada, comprobable y comprensible. Se prohíbe el Tratamiento de datos parciales, incompletos, fraccionados o que induzcan a error. Transparencia En el Tratamiento debe garantizarse el derecho del Titular a obtener del Responsable del Tratamiento o del Encargado del Tratamiento, en cualquier momento y sin restricciones, información acerca de la existencia de datos que le conciernan Acceso y Circulación Restringida El Tratamiento se sujeta a los límites que se derivan de la naturaleza de los datos personales, de las disposiciones de la presente ley y la Constitución. En este sentido, el Tratamiento sólo podrá hacerse por personas autorizadas por el Titular y/o por las personas previstas en la Ley. Los datos personales, salvo la información pública, no podrán estar disponibles en Internet u otros medios de divulgación o comunicación masiva, salvo que el acceso sea técnicamente controlable para brindar un conocimiento restringido sólo a los Titulares o terceros autorizados conforme a la ley. Seguridad La información sujeta a Tratamiento por el Responsable del Tratamiento o Encargado del Tratamiento a que se refiere la ley, se deberá manejar con las medidas técnicas, humanas y administrativas que sean necesarias para otorgar seguridad a los registros evitando su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento. Confidencialidad Todas las personas que intervengan en el Tratamiento de datos personales que no tengan la naturaleza de públicos están obligadas a garantizar la reserva de la información, inclusive después de finalizada su relación con alguna de las labores que comprende el Tratamiento, pudiendo sólo realizar suministro o comunicación de datos personales cuando ello corresponda al desarrollo de las actividades autorizadas en la ley. RESPONSABLE DEL TRATAMIENTO TRAMO como responsable del tratamiento cumplirá con los siguientes deberes de acuerdo con el Artículo 17 de la Ley 1581 de 2012: Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data; Solicitar y conservar, en las condiciones previstas en la ley, copia de la respectiva autorización otorgada por el Titular; Informar debidamente al Titular sobre la finalidad de la recolección y los derechos que le asisten por virtud de la autorización otorgada; Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento; Garantizar que la información que se suministre al Encargado del Tratamiento sea veraz, completa, exacta, actualizada, comprobable y comprensible; Actualizar la información, comunicando de forma oportuna al Encargado del Tratamiento, todas las novedades respecto de los datos que previamente le haya suministrado y adoptar las demás medidas necesarias para que la información suministrada a este se mantenga actualizada; Rectificar la información cuando sea incorrecta y comunicar lo pertinente al Encargado del Tratamiento; Suministrar al Encargado del Tratamiento, según el caso, únicamente datos cuyo Tratamiento esté previamente autorizado de conformidad con lo previsto en la ley; Exigir al Encargado del Tratamiento en todo momento, el respeto a las condiciones de seguridad y privacidad de la información del Titular; Tramitar las consultas y reclamos formulados en los términos señalados en la ley; Adoptar un manual interno de políticas y procedimientos para garantizar el adecuado cumplimiento de la ley y en especial, para la atención de consultas y reclamos; Informar al Encargado del Tratamiento cuando determinada información se encuentra en discusión por parte del Titular, una vez se haya presentado la reclamación y no haya finalizado el trámite respectivo; Informar a solicitud del Titular sobre el uso dado a sus datos; Informar a la autoridad de protección de datos cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los Titulares. Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio. ENCARGADO DEL TRATAMIENTO Cuando TRAMO actúe como encargado del Tratamiento tendrá los siguientes deberes en concordancia con el Artículo 18 de la Ley 1581 de 2012: Garantizar al Titular, en todo tiempo, el pleno y efectivo ejercicio del derecho de hábeas data; Conservar la información bajo las condiciones de seguridad necesarias para impedir su adulteración, pérdida, consulta, uso o acceso no autorizado o fraudulento; Realizar oportunamente la actualización, rectificación o supresión de los datos en los términos de la ley; Actualizar la información reportada por los Responsables del Tratamiento dentro de los cinco (5) días hábiles contados a partir de su recibo; Tramitar las consultas y los reclamos formulados por los Titulares en los términos señalados en la ley; Adoptar un manual interno de políticas y procedimientos para garantizar el adecuado cumplimiento de la ley y, en especial, para la atención de consultas y reclamos por parte de los Titulares; Registrar en la base de datos las leyenda “reclamo en trámite” en la forma en que se regula en la ley; Insertar en la base de datos la leyenda “información en discusión judicial” una vez notificado por parte de la autoridad competente sobre procesos judiciales relacionados con la calidad del dato personal; Abstenerse de circular información que esté siendo controvertida por el Titular y cuyo bloqueo haya sido ordenado por la Superintendencia de Industria y Comercio; Permitir el acceso a la información únicamente a las personas que pueden tener acceso a ella; Informar a la Superintendencia de Industria y Comercio cuando se presenten violaciones a los códigos de seguridad y existan riesgos en la administración de la información de los Titulares; Cumplir las instrucciones y requerimientos que imparta la Superintendencia de Industria y Comercio. En el evento en que concurran las calidades de Responsable del Tratamiento y Encargado del Tratamiento en la misma persona, le será exigible el cumplimiento de los deberes previstos para cada uno. TRAMO garantizará que los Encargados del Tratamiento de datos personales den cumplimiento a las obligaciones contenidas en la presente Política. TRATAMIENTO DE LA INFORMACIÓN TRAMO, no vende ni alquila a terceros las bases de datos que obtiene en desarrollo de su objeto social, esta información solo será tratada para los fines y periodo que en cada caso se indique, garantizando mantenerla segura y con un alto grado de privacidad y confidencialidad. Toda la información recopilada por TRAMO se encuentra protegida en diversos tipos de archivos físicos y copias virtuales protegida por servidores internos y externos los cuales se encuentran coordinados por el área encargada. La información obtenida por medio de nuestro portal web, cuenta con acceso restringido de determinado personal custodiado por medio de usuarios y contraseñas de administrador. Así mismo, TRAMO obtiene la información que tiene en sus bases de datos, mediante relaciones contractuales propias de su objeto social y formatos físicos en su labor comercial. Toda la información de los titulares que reposa en TRAMO para su tratamiento con su correspondiente autorización para el mismo, podrá ser transferida total o parcialmente al exterior a terceras personas o aliados estratégicos de TRAMO, dando cumplimiento a los requerimientos legales para la realización de dicha transferencia; esto dependerá de las relaciones que de forma permanente o esporádica que tengan los titulares con TRAMO. La información continuará manteniéndose con la misma privacidad y seguridad con la que se mantenía en TRAMO y solo será tratada para los fines indicados inicialmente. FINALIDAD Y TIPOS DE DATOS La Información tratada por TRAMO como responsable y encargado, corresponde a los datos suministrados por sus proveedores, empleados, clientes y candidatos. El tratamiento de estos datos tendrá como finalidad en general para dar cumplimiento a las actividades comerciales y transaccionales vinculadas con DEFFY y sus proveedores, expedir facturas, cotizaciones, registros, pedidos y todos los documentos necesarios que sirvan de soporte para el registro de las transacciones y actividades que se lleven a cabo por cualquier medio autorizado de TRAMO, y perfeccionar sus pagos. Atención a los usuarios en cuanto a quejas, reclamos y/o felicitaciones, y emitir sus respectivas respuestas. Desarrollo de procesos y procedimientos contables y dar cumplimiento a procesos de seguridad sobre la información que reposa en las bases de datos de TRAMO</string>
+    <string name="tipo_de_combustible">Tipo de combustible</string>
+    <string name="tipo_de_identificacion">Tipo de identificacion</string>
+    <string name="tipo_de_vehiculo">Tipo de vehiculo</string>
+    <string name="title_activity_driver_register_five">ActivityDriverRegisterFive</string>
+    <string name="title_activity_home_launch_driver">HomeLaunchDriver</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="traccion_vehiculo">Tracción vehiculo</string>
+    <string name="tramo_s_a_s">TRAMO S.A.S</string>
+    <string name="transporte_y_movilidad">Transporte y movilidad</string>
+    <string name="transpote_y_movilidad">Transpote y Movilidad</string>
+    <string name="tus_ultimos_pedidos">Tus ultimos pedidos</string>
+    <string name="ubicacion_actual">Ubicacion actual</string>
+    <string name="ubicacion_de_la_carga">Ubicacion de la carga:</string>
+    <string name="ubicacion_seleccionada">Ubicacion seleccionada</string>
+    <string name="version">Version</string>
+    <string name="volver_a_solicitar_el_servicio">Volver a solicitar el servicio</string>
+    <style name="MenuItemStyle" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <style name="Theme.TRAMO" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#161627</item>
+        <item name="colorPrimaryVariant">#A3161627</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#161627</item>
+        <item name="colorSecondaryVariant">#FFFFFF</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        
+        <item name="android:statusBarColor">#161627</item>
+
+    </style>
+    <style name="Theme.TRAMO.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.TRAMO.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TRAMO.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/primaryWeb</item>
+        <item name="titleTextColor">#000000</item>
+    </style>
+    <style name="ToolbarThemePrimary" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="titleTextColor">#000000</item>
+    </style>
+    <style name="ToolbarThemeSecondary" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="titleTextColor">#FFFFFF</item> 
+    </style>
+</resources>
