@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextCodigo"
+        android:layout_width="279dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="128dp"
+        android:hint="Ingrese código"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <EditText
+        android:id="@+id/editTextCiudad"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:hint="Ingrese ciudad"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCodigo"
+        tools:layout_editor_absoluteX="66dp" />
+
+    <EditText
+        android:id="@+id/editTextCodep"
+        android:layout_width="283dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:hint="Ingrese codedep"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCiudad" />
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="295dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="60dp"
+        android:text="Insertar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCodep" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
