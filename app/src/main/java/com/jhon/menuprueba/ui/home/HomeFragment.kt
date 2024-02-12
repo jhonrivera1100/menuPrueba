@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import android.support.v4.app.Fragment
 import android.arch.lifecycle.ViewModelProvider
+import android.widget.Button
+import com.jhon.menuprueba.R
 import com.jhon.menuprueba.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -30,7 +32,17 @@ class HomeFragment : Fragment() {
 
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
+        val num1: TextView = root.findViewById((R.id.txtNum1))
+        val num2: TextView = root.findViewById((R.id.txtNum2))
+        val res: TextView = root.findViewById((R.id.txtResultado))
+        val botonSuma: Button = root.findViewById(R.id.btnSuma)
 
+        botonSuma.setOnClickListener(){
+            var n1 = num1.text.toString().toInt()
+            var n2 = num2.text.toString().toInt()
+            var sum = n1 + n2
+            res.text = "el resultado es $sum"
+        }
         return root
     }
 

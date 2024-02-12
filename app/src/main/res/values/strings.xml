@@ -5,10 +5,11 @@
     <string name="nav_header_title">Menu de Pruebas</string>
     <string name="nav_header_subtitle">Educatio</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Cerrar Sesion</string>
 
     <string name="menu_home">Suma</string>
     <string name="menu_gallery">Resta</string>
     <string name="menu_slideshow">Multiplicacion</string>
     <string name="menu_division">Division</string>
+    <string name="menu_boton">Ser Docente</string>
 </resources>
